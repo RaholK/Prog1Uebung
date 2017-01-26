@@ -17,7 +17,7 @@ public class Professor extends Staff{
 		String assistenten=""; 
 		for(int i = 0; i<assistants.length; i++) {
 			if(assistants[i]!=null) {
-			assistenten = assistenten + ", Name:"+assistants[i].getName()+ ", Vorname: " +assistants[i].getPrenom()+ ", Adresse: "+assistants[i].getAdress();
+			assistenten = assistenten + "\nName:"+assistants[i].getName()+ ", Vorname: " +assistants[i].getPrenom()+ ", Adresse: "+assistants[i].getAdress();
 			}
 		}
 		return super.toString()+ " Assistenten: "+assistenten;
